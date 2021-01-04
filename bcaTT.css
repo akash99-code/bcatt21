@@ -1,0 +1,44 @@
+html{
+    text-align: center;
+    padding: 90px 6%;
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url("2.jpg");
+    color:whitesmoke;
+    text-shadow: 5px 5px 6px rgb(49, 0, 2);
+}
+body{
+  margin:0%;
+}
+table, tr{
+    table-layout: fixed;
+    border: 1px solid rgb(44, 44, 44);
+    border-collapse: collapse;
+    text-align-last: center;
+    font-size: small;
+    
+    
+  }
+  td{
+    font-size: 1.6vw;
+    padding:7px;
+    color:rgb(211, 211, 211);
+    text-shadow: 2px 2px 2px rgb(17, 0, 0); 
+  }
+  table button{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgba(17, 17, 17, 0.863);
+    color: white;
+    border-style: inset;
+    border-color: rgb(33, 33, 34);
+    border-width: 5px;
+    border-radius: 10px 0px 10px 0px;
+    width: 98%;
+    text-align: center;
+    padding: 5px;
+    /**display: inline-block;*/
+    font-size: 1.9vw;
+    
+  }
+  table button:hover{
+    background-color: rgb(7, 7, 7);
+  }
